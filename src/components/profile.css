@@ -1,0 +1,210 @@
+/* Edit Profile Section*/
+.edit-profile {
+    margin-top: 110px;
+    position: relative;
+    right: 60px;
+}
+.edit-profile > a {
+    color: #002F34;
+}
+.edit-profile > a:hover {
+    text-decoration: none;
+    color: #002F34;
+}
+.edit-profile > button {
+    border: 2px solid #002F34;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.edit-profile > button:hover {
+    outline: 1px solid #002F34;
+    border-radius: 5px;
+}
+.profile-box {
+    margin-top: 110px;
+    /*width: 80%;*/
+    border: 1px solid #ccd4e4;
+    text-align: left;
+    border-radius: 5px;
+    /*margin-bottom: 50px;*/
+}
+
+/* Heading of edit profile  title-input*/
+.edit-profile-H {
+    color: #002F34;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccd4e4;
+}
+
+/*Basic Info*/
+.basic-info {
+    border-bottom: 1px solid #ccd4e4;
+}
+.basic-info > small {
+    margin-left: 320px;
+    position: relative;
+    bottom: 12px;
+}
+.basic-info-H {
+    color: #002F34;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+.basic-info-U {
+    width: 45%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+.basic-info-T {
+    padding: 10px;
+}
+.basic-info-important {
+    border: 1px solid #ccd4e4;
+    padding: 10px;
+    margin: 10px;
+    width: 35%;
+    font-size: small;
+    float: right;
+    position: relative;
+    bottom: 210px;
+    right: 120px;
+}
+@media only screen and (max-width: 1125px) {
+    .basic-info-important {
+        position: relative;
+        left: 1px;
+    }
+    .basic-info-U {
+        width: 55%;
+    }
+}
+
+.basic-info-important-I {
+    display: flex;
+    flex-direction: row;
+}
+.basic-info-important-I > i {
+    margin-right: 10px;
+    margin-top: 4px;
+}
+.basic-info-important-I > p {
+    font-weight: bold;
+}
+
+/* Contact Info */
+.contact-info {
+    border-bottom: 1px solid #ccd4e4;
+}
+.basic-info-C {
+    color: #002F34;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+.info-I {
+    border-bottom: 1px solid #ccd4e4;
+}
+.info-C {
+    width: 45%;
+    border: 2px solid #ccd4e4;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.info-C > span {
+    display: flex;
+    flex-direction: row;
+}
+.info-C .contact {
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 6px;
+}
+.info-C .info-I {
+    border-style: none;
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    margin-bottom: 10px !important;
+}
+.info-C .info-I:focus {
+    border-style: none;
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.info-P {
+    float: right;
+    font-weight: 200;
+    font-size: 14px;
+    position: relative;
+    left: 290px;
+    bottom: 100px;
+    overflow: hidden;
+}
+@media only screen and (max-width: 1125px) {
+    .info-P {
+        left: 260px;
+        bottom: 85px;
+        font-size: 12px;
+    }
+}
+
+/* Optional Details*/
+.optional-details {
+    border-bottom: 1px solid #ccd4e4;
+    /*
+    position: relative;
+    bottom: 60px;*/
+}
+.op-details-H {
+    color: #002F34;
+}
+.opd-fb > p{
+    font-size: 12px;
+    font-weight: 100;
+}
+.opd-g > p{
+    font-size: 12px;
+    font-weight: 100;
+}
+.opd-btn > button {
+    border: 2px solid #002F34;
+    margin-top: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.opd-btn > button:hover {
+    border: 3px solid #002F34;
+}
+
+/*save changes button*/
+.sv-btn {
+    height: 70px;
+    position: relative;
+    top: 20px;
+}
+.sv-btn > a {
+    color: #002F34 !important;
+    font-weight: 800;
+    text-decoration: underline;
+}
+.sv-btn > a:hover {
+    text-decoration: none;
+}
+.sv-btn > .btn {
+    background-color: #002F34;
+    color: white;
+}
+.sv-btn > .btn:hover {
+    background-color: white;
+    color: #002F34;
+    border: 1px solid #002F34;
+}
+.not-login {
+    height: 1400px;
+}
+.div-not-login {
+    margin-top: 90px;
+    text-align: center;
+}

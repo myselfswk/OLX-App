@@ -1,0 +1,227 @@
+
+.home_page{
+    margin-top: 70px;
+    width: 100vw;
+    height: 80vh;
+}
+.hero_banner{
+    height: 350px;
+    /*
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: 100% 80%;*/
+}
+.hero_banner>img {
+    height: 300px;
+    width: 100% !important;
+}
+.hero_ad{
+ text-align: center;   
+}
+.app-LS {
+    position: relative;
+    top:40px;
+    padding-top: 20px;
+    background-color: #EBEEEF;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    border-radius: 10px;
+}
+.ls-h {
+    font-size: 30px;
+    padding-left: 20px;
+}
+.ls-l {
+    color: black !important;
+    font-size: 20px;
+    text-decoration: underline;
+    margin-left: 650px;
+}
+@media only screen and (max-width: 1125px) {
+    .ls-l {
+        margin-left: 800px;
+    }
+}
+.ls-l>a {
+    text-align: right;
+}
+.ls-l:hover {
+    text-decoration: none !important;
+}
+.featured {
+    background-color: #FFCE32;
+    color: black;
+    height: 25px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    left: 5px;
+}
+.fa-heart {
+    font-weight: 500;
+    font-size: 25px;
+}
+.ls-content {
+    background-color: #FFCE32;
+    width: 5px;
+    height: 123px;
+}
+.col {
+    width: 300px;
+    cursor: pointer;
+}
+.last-search {
+    background-color: white;
+    height: 280px;
+    padding: 5px;
+    margin: 15px;
+    padding-left: 20px;
+    border: 1px solid gray;
+}
+.last-search .row>img {
+    height: 150px;
+    width: 150px;
+}
+.hero_ad img{
+    height: 245px;
+    width: 90vh;
+    /*background-image: url();
+    background-size: 100% 100%;*/
+    padding-bottom: 50px;
+}
+.hero_end{
+    background-color: #F7F8F9;
+    width: 100vw;
+    height: 200px;
+    margin-bottom: 20px;
+    margin-top: -30px;
+    box-shadow: 4px 3px 5px rgb(100, 99, 99);
+}
+@media only screen and (max-width: 767px) {
+    .hero_end {
+        display: none;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .hero_bottom_center>h2, .hero_bottom_center>h5 {
+        font-size: 20px;
+    }
+}
+.hero_bottom_img{
+    background-image: url('./img/phone-app.webp');
+    background-repeat: no-repeat;
+    height: 200px !important;
+}
+.hero_bottom_center{
+    height: 140px;
+    margin-top: 30px;
+    border-right: 2px solid #0D2F34;
+}
+.hero_bottom_center h2{
+    font-weight: bolder;
+    color: #0D2F34;
+}
+.hero_bottom_right{
+    height: 140px;
+    color: #0D2F34;
+}
+.hero_bottom_right h5{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.hero_bottom_right .apple_logo{
+    background-image: url('./img/applestore.webp');
+    height: 40px;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+@media only screen and (max-width: 768px) {
+    .hero_bottom_right .apple_logo {
+        background-size: 30% 30%;
+        height: 80px;
+        background-repeat: no-repeat;
+        float: right;
+    }
+}
+.hero_bottom_right .android_logo{
+    background-image: url('./img/playstore.webp');
+    height: 40px;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+@media only screen and (max-width: 768px) {
+    .hero_bottom_right .android_logo {
+        background-size: 30% 30%;
+        height: 80px;
+        background-repeat: no-repeat;
+        float: right;
+    }
+}
+
+/* Post */
+.homeAd{
+    border: 1px solid #b4b4b4;
+    border-radius: 5px;
+    margin-top: 130px;
+    margin-left: 60px;
+    width: 240px;
+    height: 300px;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+}
+@media only screen and (max-width: 1125px) {
+    .homeAd {
+        margin-left: 30px;
+    }
+}
+.homeAdImage{
+    padding: 10px;
+    overflow: hidden;
+    width: 225px;
+    height: 210px;
+}
+.homeAdDetails{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-left: 6px solid #ffce32;
+    border-radius: 5px;
+}
+.homeAdTitle{
+    
+    text-transform: capitalize;
+    font-size: 22px;
+    color: #020202;
+    font-weight: 640;
+    margin-left: 10px;
+}
+.homeAdPrice{
+    font-size: 18px;
+    color: #535353;
+    margin-left: 10px;
+    overflow: hidden;
+    font-weight: 650;
+}
+.homeAdCondition{
+    text-transform: capitalize;
+    font-size: 16px;
+    color: #727374;
+    overflow: hidden;
+    margin-left: 10px;
+}
+.heart{
+    position: fixed;
+    padding: 5px;
+    color: #282c34 !important;
+    font-size: 22px;
+    font-weight: 700;
+}

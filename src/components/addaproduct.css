@@ -1,0 +1,111 @@
+.addAPost {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.navbar {
+    width: 100% !important;
+}
+.btn-arrow-left-home {
+    margin-right: 25px;
+    margin-left: 10px;
+}
+.logoProduct {
+    width: 50px;
+}
+
+/* Icon Settings */
+.postIcon {
+    position: relative;
+    bottom: 5px;
+}
+.postIcon-M {
+    margin-left: 210px;
+}
+.postIcon-V {
+    margin-left: 207px;
+}
+.postIcon-S {
+    margin-left: 138px;
+}
+.postIcon-R {
+    margin-left: 135px;
+}
+.postIcon-E {
+    margin-left: 39px;
+}
+.postIcon-B {
+    margin-left: 223px;
+}
+.postIcon-ser {
+    margin-left: 202px;
+}
+.postIcon-J {
+    margin-left: 226px;
+}
+.postIcon-A {
+    margin-left: 202px;
+}
+.postIcon-F {
+    margin-left: 46px;
+}
+.postIcon-fas {
+    margin-left: 133px;
+}
+.postIcon-BSH {
+    margin-left: 79px;
+}
+.postIcon-K {
+    margin-left: 225px;
+}
+
+.post-heading {
+    margin-top: 100px !important;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.postACat {
+    width: 60%;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.postACat-H {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.btnGroupSidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+}
+
+/* Footer*/
+.postACat-footer {
+    width: 100%;
+    background-color: #002F34;
+    height: 50px;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+.postACat-footer>span>a{
+    color: white;
+}
+.postACat-footer>span>a:hover {
+    text-decoration: none;
+}
+.postACat-footer-S {
+    color: white;
+    float: right;
+    padding-right: 30px;
+}
+.not-login {
+    height: 1400px;
+}
+.div-not-login {
+    margin-top: 90px;
+    text-align: center;
+}

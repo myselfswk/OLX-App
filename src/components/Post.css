@@ -1,0 +1,61 @@
+.postDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 100px 0px 20px 0px;
+  }
+  .postImage{
+    width: 50%;
+    margin-right: 20px;
+  }
+  .priceDiv{
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    text-align: left;
+    padding: 20px;
+    justify-content: center;
+  }
+  .postPrice{
+    border-radius: 5px;
+    width: 100%;
+    margin: 30px 0px 0px 0px;
+    padding: 20px;
+    border: 1px solid #b8b8b8;
+    text-align: left;
+  }
+  .postSeller{
+    width: 20%;
+    border-radius: 5px;
+    text-align: left;
+    padding: 20px;
+    border: 1px solid #b8b8b8;
+  }
+  .img-fluid{
+    border-radius: 5px;
+  }
+  .sellerDetails{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    margin: 30px 0px 10px 0px;
+  }
+  .postContact{
+    margin-top: 20px;
+  }
+  .postDetails{
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: left;
+    border: 1px solid #b8b8b8;
+    margin-top: 10px;
+  }
+  .postDes{
+    border: 1px solid #b8b8b8;
+    border-radius: 5px;
+    text-align: left;
+    width: 60%;
+    padding: 20px;
+  }

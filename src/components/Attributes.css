@@ -1,0 +1,162 @@
+.addAttributes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logoAttribute {
+    width: 50px;
+}
+.postAttributes-H {
+    margin-top: 100px !important;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.btn-arrow-left-home {
+    margin-right: 25px;
+    margin-left: 10px;
+}
+/* attribute box*/
+.attribute-box {
+    width: 60%;
+    border: 1px solid #ccd4e4;
+    padding: 0px;
+    text-align: left;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+.attribute-box-H {
+    padding: 15px;
+    border-bottom: 1px solid #ccd4e4;
+}
+.attribute-detail {
+    padding: 20px;
+    border-bottom: 1px solid #ccd4e4;
+}
+.include-details {
+    color: black;
+}
+.ad-title {
+    margin-top: 20px !important;
+}
+.ad-title-H {
+    font-weight: 400;
+}
+.title-input {
+    width: 55% !important;
+    border: 1px solid #282c34 !important;
+}
+.title-input:focus, .title-input:active{
+    box-shadow: none !important;
+    border: 2px solid #23e5db !important ;
+}
+.mention-feature {
+    font-size: 12px;
+    color: rgb(128, 128, 128);
+}
+.attributes-desc {
+    margin-top: 20px;
+    font-weight: 400;
+}
+.attribute-textArea {
+    border-radius: 3px;
+    border: 1px solid #282c34 !important;
+}
+.attribute-textArea:focus, .attribute-textArea:active{
+    box-shadow: none !important;
+    border: 2px solid #23e5db !important ;
+}
+
+/* Attribute set price*/
+.A-setPrice {
+    padding: 20px;
+    border-bottom: 1px solid #ccd4e4;
+}
+.A-price {
+    width: 55% !important;
+}
+.A-priceInput:focus, .A-priceInput:active {
+    box-shadow: none !important;
+    border: 2px solid #23e5db !important ;
+}
+
+/* location for order*/
+.location-url {
+    padding: 20px;
+    border-top: 1px solid #ccd4e4 !important;
+    border-bottom: 1px solid #ccd4e4;
+}
+
+/* details review section*/
+.details-review {
+    padding: 20px;
+    border-bottom: 1px solid #ccd4e4;
+}
+.user-image {
+    width: 100px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+.avatar {
+    width: 100%;
+    cursor: pointer;
+}
+.mar{
+    margin: 10px 0px 10px 0px;
+}
+.btn > a {
+    color: white;
+}
+.btn > a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+/* footer */
+.attribute-footer {
+    width: 100%;
+    background-color: #002F34;
+    height: 50px;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+.attribute-footer>span>a{
+    color: white;
+}
+.attribute-footer>span>a:hover {
+    text-decoration: none;
+}
+.attribute-footer-S {
+    color: white;
+    float: right;
+    padding-right: 30px;
+}
+.not-login {
+    height: 1400px;
+}
+.div-not-login {
+    margin-top: 90px;
+    text-align: center;
+}
+
+/*upload an image*/
+.choose-Files {
+    padding: 20px;
+}
+.filesForImage {
+    margin-top: 20px;
+    font-size: 18px !important;
+    font-weight: 400 !important;
+}
+.mandatory {
+    color: red;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.choose-Files > progress {
+    cursor: pointer !important;
+}
+.choose-Files > img {
+    cursor: pointer !important;
+}
