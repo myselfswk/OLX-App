@@ -6,15 +6,16 @@ import 'firebase/analytics';
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+// uncode the firebase authentication, go to firebase console and copy firebaseConfig data
 var firebaseConfig = {
-    apiKey: "AIzaSyBm0J3Ajs0RnTSsDqOqTDSEk9sPCy2Y34g",
-    authDomain: "olxapp-reactapp-saylani.firebaseapp.com",
-    databaseURL: "https://olxapp-reactapp-saylani.firebaseio.com",
-    projectId: "olxapp-reactapp-saylani",
-    storageBucket: "olxapp-reactapp-saylani.appspot.com",
-    messagingSenderId: "215949963501",
-    appId: "1:215949963501:web:d399adfb354db7073d5ce4",
-    measurementId: "G-4D6TGSDWX7"
+    apiKey: process.env.REACT_APP_API_KEY,
+    authDomain: process.env.REACT_APP_AUTH_DOMAIN,
+    databaseURL: process.env.REACT_APP_DATABASE_URL,
+    projectId: process.env.REACT_APP_PROJECT_ID,
+    storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
+    messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
+    appId: process.env.REACT_APP_APP_ID,
+    measurementId: process.env.REACT_APP_MEASUREMENT_ID
 };
 
 // Initialize Firebase
