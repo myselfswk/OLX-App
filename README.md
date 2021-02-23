@@ -3,6 +3,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## PROJECT URL
 https://olxapp-reactapp-saylani.web.app/
 
+## Future FeatureS:
+Update profile and upload profile coming soon
+
 ## Available Scripts
 
 In the project directory, you can run:
