@@ -1,8 +1,5 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## PROJECT URL
-https://olxapp-reactapp-saylani.web.app/
-
 ## Future FeatureS:
 Update profile and upload profile coming soon
 
