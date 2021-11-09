@@ -1,7 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Future Features:
-(Update profile,manage profile and upload profile picture coming soon)
+(Update & manage profile and upload profile picture coming soon)
 
 ## Available Scripts
 
