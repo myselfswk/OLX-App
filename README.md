@@ -2,6 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Future Features:
 (Update & manage profile and upload profile picture coming soon)
+(message update coming soon)
 
 ## Available Scripts
 
