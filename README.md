@@ -4,6 +4,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 (Update & manage profile and upload profile picture coming soon)
 (message update coming soon)
 
+(A Porject For Saylani Mass IT Training Center)
+
 ## Available Scripts
 
 In the project directory, you can run:
