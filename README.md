@@ -1,7 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Future Features:
-(Update & manage profile and upload profile picture coming soon)
+(Update & manage User profile and upload profile picture coming soon)
 (message update coming soon)
 
 (A Porject For Saylani Mass IT Training Center)
