@@ -3,7 +3,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Future Features:
 (Update, messaging & manage User profile and upload profile picture coming soon)
 
-A Porject For Saylani Mass IT Training Center
+A Porject For Saylani Mass IT Training Center.
 
 ## Available Scripts
 
